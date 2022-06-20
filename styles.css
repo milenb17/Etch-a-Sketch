@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+}
+
+/* html, body { 
+   height: 100%
+}*/
+
+#container {
+    display: flex;
+    align-items: stretch;
+    height: 480px;
+    width: 480px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.box {
+    flex: auto;
+    border: 1px solid black;
+}
