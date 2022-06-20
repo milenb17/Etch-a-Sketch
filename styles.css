@@ -23,3 +23,7 @@ html {
     flex: auto;
     border: 1px solid black;
 }
+
+.color {
+    background-color: black;
+}
